@@ -6,7 +6,7 @@ public class PlayerScript : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		
+		//Häksätään kaikki pastat.
 	}
 	
 	// Update is called once per frame
