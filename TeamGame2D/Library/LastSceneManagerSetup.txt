@@ -1,1 +1,4 @@
-sceneSetups: []
+sceneSetups:
+- path: Assets/Mighty Heroes (Rogue) 2D Fantasy Characters Pack/scene.unity
+  isLoaded: 1
+  isActive: 1
