@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Mighty Heroes (Rogue) 2D Fantasy Characters Pack/scene.unity
+- path: Assets/Scenes/Minigame1/Minigame1Scene.unity
   isLoaded: 1
   isActive: 1
