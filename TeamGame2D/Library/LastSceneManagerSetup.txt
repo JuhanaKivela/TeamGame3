@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Orc Warrior/Scenes/demo.unity
+- path: Assets/Mighty Heroes (Rogue) 2D Fantasy Characters Pack/scene.unity
   isLoaded: 1
   isActive: 1
