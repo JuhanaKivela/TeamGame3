@@ -70,7 +70,7 @@ public class AllieScript : MonoBehaviour {
         {
 
         }
-        if ((locationBetween.x > MinDistance || locationBetween.x < MinDistance * -1) && (locationBetween.y > (MinDistance / 5) || locationBetween.y < ((MinDistance * -1) / 3)))
+        if ((locationBetween.x > MinDistance || locationBetween.x < MinDistance * -1) || (locationBetween.y > (MinDistance / 5) || locationBetween.y < ((MinDistance * -1) / 3)))
         {
             walkSpeed = 1;
         }
