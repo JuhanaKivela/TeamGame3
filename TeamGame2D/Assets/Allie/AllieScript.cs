@@ -6,14 +6,20 @@ public class AllieScript : MonoBehaviour {
     public float speed = 25;
     public float MinDistance = 22;
     public float attackRange = 10;
+    private Animator myAnimator;
 
     // Use this for initialization
     void Start () {
-		
-	}
+        myAnimator = GetComponent<Animator>();
+
+    }
 	
 	// Update is called once per frame
 	void Update () {
+
+        float walkSpeed = 0;
+
+        
 
         // Gets player tag. Player can be accessed trough tag
         var player = GameObject.FindWithTag("Player");
@@ -64,5 +70,12 @@ public class AllieScript : MonoBehaviour {
         {
 
         }
+        if ((locationBetween.x > MinDistance || locationBetween.x < MinDistance * -1) && (locationBetween.y > (MinDistance / 5) || locationBetween.y < ((MinDistance * -1) / 3)))
+        {
+            walkSpeed = 1;
+        }
+        myAnimator.SetFloat("speed", walkSpeed);
     }
+
+
 }
